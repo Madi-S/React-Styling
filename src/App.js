@@ -15,11 +15,11 @@ import Box5 from './Framer/Box5'
 
 function App() {
     return <div className='app'>
-        <Box5 />
         <Box1 />
         <Box2 />
         <Box3 />
         <Box4 />
+        <Box5 />
     </div>
 }
 
