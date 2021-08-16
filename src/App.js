@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+/* react-spring animations
+import Mount from './ReactSpring/Mount'
+import Drag from './ReactSpring/Drag'
+import Loading from './ReactSpring/Loading'
+import Star from './ReactSpring/Star'
+import Number from './ReactSpring/Number'
+import DraggableList from './ReactSpring/DraggableList'
+*/
+
+import Box1 from './Framer/Box1'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return <div className='app'>
+        <Box1 />
     </div>
-  );
 }
 
-export default App;
+export default App
