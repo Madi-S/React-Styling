@@ -15,6 +15,11 @@ import Box5 from './Framer/Box5'
 
 import styled, { css } from 'styled-components'
 
+const colors = {
+    deepWhite: 'white',
+    blackish: 'black'
+}
+
 const Wrapper = styled.section`
     padding: 4rem;
     margin: 2rem;
@@ -23,7 +28,7 @@ const Wrapper = styled.section`
         is3D &&
         css`
             background-color: white !important;
-            box-shadow: 1rem 1rem 2rem black !important;
+            box-shadow: 1rem 1rem 2rem ${colors.blackish} !important;
         `}
 `
 
@@ -53,7 +58,7 @@ function App() {
                 <Wrapper>
                     <Title>Hello Styled-Components</Title>
                 </Wrapper>
-                <Wrapper bg='white'>
+                <Wrapper bg={colors.blackish}>
                     <Title>Hello World</Title>
                 </Wrapper>
                 <Wrapper is3D={true}>
